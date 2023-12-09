@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        li a {
+            /* text-decoration: none; */
+            color: black;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: large;
+        }
+    </style>
+
+    <h1>Welcome to the JAVASCRIPT Session:</h1>
+    <h2>Here we can practice some chapters of <b>JAVASCRIPT</b></h2>
+    <ol>
+        <li><a href="index.html" target="_blank">Alert</a></li>
+        <br><br>
+        <li><a href="index.html" target="_blank">Variable For String</a></li>
+        <p>A variable is created when you write var (for variable) followed by the name that you
+            choose to give it. It takes on a particular value when you assign the value to it. This is a
+            JavaScript statement that creates the variable name and assigns the value "anas" to it. <br>
+            The name anas that are covered in ""this are called string. <b>For Example</b> <br>
+            var name = "anas"; <br> console.log (name); <br>If you check the answer go to the console.</p>
+        <li><a href="index.html" target="_blank">Variable For Numbers</a></li>
+        <p>A string isn't the only thing you can assign to a variable. You can also assign a number. <br>var weight =
+            45; <br>Having coded the statement above, whenever you write weight in your code, JavaScript
+            knows you mean 150. You can use this variable in math calculations.
+            If you ask JavaScript to add 5 to weight... <br>weight + 5 <br>If you check the answer go to the console.
+        </p>
+        <li><a href="index.html" target="_blank">Variable Names Legal and Illegal</a></li>
+        <p>Here are the rest of the rules:</p>
+        <ul>
+            <li>A variable name can't contain any spaces.</li>
+            <li>A variable name can contain only letters, numbers, dollar signs, and underscores.</li>
+            <li>Though a variable name can't be any of JavaScript's keywords, it can contain keywords.
+                For example, "userAlert" and "myVar" are legal.</li>
+            <li>Capital letters are fine, but be careful. Variable names are case sensitive. A "rose" is not a
+                "Rose". If you assign the string Floribundas to the variable "rose", and then ask JavaScript
+                for the value assigned to "Rose", you'll come up empty.</li>
+            <li>I teach the camelCase naming convention. Why "camelCase"? Because there is a hump or
+                two (or three) in the middle if the name is formed by more than one word. A camelCase
+                name begins in lower case. If there's more than one word in the name, each subsequent
+                word gets an initial cap, creating a hump. If you form a variable name with only one
+                word, like response, there's no hump. It's a camel that's out of food. Please adopt the
+                camelCase convention. It'll make your variable names more readable, and you'll be less
+                likely to get variable names mixed up.</li> <br> <b>Examples:</b> <br> userResponse <br>userResponseTime
+            <br>userResponseTimeLimit <br>response
+        </ul>
+        <li><a href="index.html" target="_blank">Math expressions:
+                <br> Familiar operators</a></li>
+        <p>Wherever you can use a number, you can use a math expression. <br>The arithmetic operators I've been using,
+            +, -, *, and /, are undoubtedly familiar to you.
+            This one may not be: <b>For Example</b> <br>var num = 10;<br>
+            var anotherNum = 1;<br>
+            var popularNumber = num + anotherNum; <br>If you check the answer go to the console.</p>
+        <li><a href="index.html" target="_blank">Math expressions: <br>
+                Unfamiliar operators</a></li>
+        <p>There are several specialized math expressions you need to know. Here's the first one. <br> num++; <br>You
+            decrement using minuses instead of pluses. <br>num--; <br>we have two types of increament and dexreament:
+        </p>
+        <ul>
+            <li>Post increament</li>
+            <p>In post increament we used to write the increament afterwards. <b>For Example </b> <br>a++ </p>
+            <p>if a = 10 and b = a++ and console this situation the answer of b is 10,but the value of a is 11.</p>
+            <li>Pre increament</li>
+            <p>In Pre increament we used to write the increament backwards. <b>For Example </b> <br>++a</p>
+            <p>if a = 10 and b = ++a and console this situation the answer of b is 11 and the value of a is also 11.</p>
+
+            <li>Post decreament</li>
+            <p>In post decreament we used to write the decreament afterwards. <b>For Example </b> <br>a-- </p>
+            <p>if a = 10 and b = a-- and console this situation the answer of b is 10,but the value of a is 9.</p>
+            <li>Pre decreament</li>
+            <p>In Pre decreament we used to write the decreament backwards. <b>For Example </b> <br>--a</p>
+            <p>if a = 10 and b = --a and console this situation the answer of b is 9 and the value of a is also 9.</p>
+
+        </ul>
+
+        <li><a href="index.html" target="_blank">Math expressions: <br>
+                Eliminating ambiguity</a></li>
+        <p>Complex arithmetic expressions can pose a problem, one that you may remember from
+            high school algebra.This is totally based on airthamtic rules are known as BODMAS RULES.In this case first
+            we solve the bracket then division , then multliplication , and additio and subtraction. <br>Here are the
+            example to clear your doubts.</p>
+        <p>var a =10; <br>var b = 20; <br>var c = 30;<br> var d = 1 + (a/b*c); <br>so what the answer ? <br>If you want
+            to know the answer check out the console page. <b><i>The answer of given situation is 16.</i></b></p>
+
+        <li><a href="index.html" target="_blank"> Concatenating text strings:</a></li>
+        <p>In Chapter 1 you learned to display a message in an alert,But suppose you wanted to personalize a message. In
+            another part of your code you've
+            asked the user for her name and assigned the name that she entered to a variable, userName.
+            (You don't know how to do this yet. You'll learn how in a subsequent chapter.)
+            Now, you want to combine her name with a standard "Thanks" to produce an alert that
+            says, for example, "Thanks, anas!"
+            <br> <b>The second alert showing the Concatenating text strings</b>
+        </p>
+
+        <li><a href="index.html" target="_blank"> Prompts:</a></li>
+        <p><i>A prompt box asks the user for some information and provides a response field for her
+                answer.</i> <br>Prompt code is like alert code, with two differences.
+        <ul>
+            <li>In a prompt, you need a way to capture the user's response. That means you need to start
+                by declaring a variable, followed by an equal sign.</li>
+            <li>In a prompt, you can specify a second string. This is the default response that appears in
+                the field when the prompt displays. If the user leaves the default response as-is and just
+                clicks OK, the default response is assigned to the variable. It's up to you whether you
+                include a default response.</li>
+        </ul>
+        </p>
+
+        <li><a href="index.html" target="_blank"> if statement:</a></li>
+        <p>Suppose you code a prompt that asks, "Where does the Pope live?"
+            If the user answers correctly, you display an alert congratulating him. <br>var x = prompt("Where does the
+            Pope live?");<br>
+            if (x === "Vatican") {<br>
+            alert("Correct!");<br>
+            }</p>
+        <p>The example of this case first ever you seen the prompt where i can ask you a question <br><b>do you have a
+                cnic card ?</b><br>if your answer is yes so the alert is run and allowed you to enter and if your answer
+            is no so the case end here.</p>
+        <li><a href="index.html" target="_blank"> Comparison operators:</a></li>
+        <p>Let's talk a little more about ===. It's a type of comparison operator, specifically an
+            equality operator. As you learned in the last chapter, you use it to compare two things to see if
+            they're equal.
+            <br>You can use the equality operator to compare a variable with a string, a variable with a
+            number, a variable with a math expression, or a variable with a variable. And you can use it to
+            compare various combinations. <br>Like ===, string comparisons using the not-equal operator are
+            case-sensitive. It's true that
+            "Rose" !== "rose".
+        </p>
+        <p>Here are 4 more comparison operators, usually used to compare numbers.</p>
+        <ul>
+            <li>> is greater than</li>
+            <li>
+                < is less than</li>
+            <li>>= is greater than or equal to</li>
+            <li>
+                <= is less than or equal to</li>
+                    <ul>
+                        <p>In the examples below, all the conditions are true.</p>
+                        <li>if (1 > 0) {</li>
+                        <li>if (0 < 1) {</li>
+                        <li>if (1 >= 0) {</li>
+                        <li>if (1 >= 1) {</li>
+                        <li>if (0 <= 1) {</li>
+                        <li>if (1 <= 1) {</li>
+                    </ul>
+        </ul>
+
+        <li><a href="index.html" target="_blank"> if...else and else if statements:</a></li>
+        <p>The if statements you've coded so far have been all-or-nothing. If the condition tested
+            true, something happened. If the condition tested false, nothing happened. <br>
+            if (x === "Vatican") {<br>
+            alert("Correct!");<br>
+            } <br>
+            else {<br>
+            alert("Wrong answer");<br>
+            }</p>
+        <p>you already saw that the program run in alert in the form of if else and else if if you enter the karachi
+            then program gives you a msg and if u enter the wrong city then also prpgram gives you a msg simoltaneously
+            working on the town program.</p>
+        <p>The answer of city = karachi and town = lyari</p>
+        
+        <li><a href="index.html" target="_blank"> if...else and else if statements:</a></li>
+
+
+
+
+
+    </ol>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
